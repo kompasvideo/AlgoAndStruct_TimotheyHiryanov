@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SieveOfEratosthenes", "Wind
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_5", "Lecture_5", "{8CB679DB-A067-4CD1-B966-1248F1C16D07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayResize", "Windows\Lecture_5\ArrayResize\ArrayResize.vcxproj", "{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{1A72FD93-E085-4C46-9B7B-9C169A80D0F2}.Release|x64.Build.0 = Release|x64
 		{1A72FD93-E085-4C46-9B7B-9C169A80D0F2}.Release|x86.ActiveCfg = Release|Win32
 		{1A72FD93-E085-4C46-9B7B-9C169A80D0F2}.Release|x86.Build.0 = Release|Win32
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Debug|x64.ActiveCfg = Debug|x64
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Debug|x64.Build.0 = Debug|x64
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Debug|x86.Build.0 = Debug|Win32
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Release|x64.ActiveCfg = Release|x64
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Release|x64.Build.0 = Release|x64
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Release|x86.ActiveCfg = Release|Win32
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +102,7 @@ Global
 		{CA80F12D-85F7-47CA-B376-740ED20ED218} = {8BD9A1D2-6659-40A6-BE3A-BC3D76E92028}
 		{7FD6EEE5-4C96-449F-8165-F7729716344E} = {A784CBA6-6E07-4EB6-B698-1D74CF44D110}
 		{1A72FD93-E085-4C46-9B7B-9C169A80D0F2} = {95ACA36F-4D0F-41D9-9DF8-947CFB5D001C}
+		{0C45D2AC-6F5D-4D87-8638-0EDE9687567A} = {8CB679DB-A067-4CD1-B966-1248F1C16D07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88D833D9-8A99-4FC5-A137-0A978E3703DF}
