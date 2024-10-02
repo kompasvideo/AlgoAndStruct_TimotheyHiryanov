@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_4", "Lecture_4", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SieveOfEratosthenes", "Windows\Lecture_4\SieveOfEratosthenes\SieveOfEratosthenes.vcxproj", "{1A72FD93-E085-4C46-9B7B-9C169A80D0F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_5", "Lecture_5", "{8CB679DB-A067-4CD1-B966-1248F1C16D07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

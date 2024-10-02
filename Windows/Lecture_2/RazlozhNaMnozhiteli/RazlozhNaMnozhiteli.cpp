@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+// разложить число на множители
 int main()
 {
     using namespace std;

@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+// проверка что число содержит цифру 7
 int main()
 {
     using namespace std;

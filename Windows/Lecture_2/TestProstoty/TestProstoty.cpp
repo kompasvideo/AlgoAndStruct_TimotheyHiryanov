@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+// алгоритм - тест простоты числа
 int main()
 {
     using namespace std;

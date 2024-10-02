@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+// Наибольший общий делитель - алгоритм Евклида
 int euclid_gcd(int a, int b) {
     while (a != b)
     {
