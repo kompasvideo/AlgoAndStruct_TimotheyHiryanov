@@ -13,17 +13,18 @@ void go_through(node_t *p) {
     }
 }
 
-// разложить число на множители
+// структуры
 int main()
 {
-    node_t A[5];
+    node_t *p_begin = new node_t;
+    node_t *p = p_begin;
     for(int i =0; i <5; i++){
-        A[i].data = i + 1;
-        A[i].next = A + i + 1;
+        p->data = i + 1;
+        p->next = new node_t;
+        p = p->next;
     }
-    A[4].next = nullptr;
-
-    node_t *p_begin = A;
+    p->data = 777;
+    p->next = nullptr;
     go_through( p_begin);
     cout << endl;
 }
