@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "memory", "memory\memory.vcx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_7", "Lecture_7", "{32C5928E-3D83-4AAB-9BBC-E993E8CAEE28}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoDimensionArray", "Windows\Lecture_7\TwoDimensionArray\TwoDimensionArray.vcxproj", "{12F8C955-B158-4DE4-B601-7944A407C6BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -155,6 +157,14 @@ Global
 		{D4870C97-8DC2-49EF-8398-D82B9F7CC83F}.Release|x64.Build.0 = Release|x64
 		{D4870C97-8DC2-49EF-8398-D82B9F7CC83F}.Release|x86.ActiveCfg = Release|Win32
 		{D4870C97-8DC2-49EF-8398-D82B9F7CC83F}.Release|x86.Build.0 = Release|Win32
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Debug|x64.ActiveCfg = Debug|x64
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Debug|x64.Build.0 = Debug|x64
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Debug|x86.Build.0 = Debug|Win32
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Release|x64.ActiveCfg = Release|x64
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Release|x64.Build.0 = Release|x64
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Release|x86.ActiveCfg = Release|Win32
+		{12F8C955-B158-4DE4-B601-7944A407C6BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -173,6 +183,7 @@ Global
 		{8F48C1DC-41B3-4FE3-9FC2-76A7D29E9018} = {B3532D52-62FC-4AFC-BAA3-A23A1D36A03A}
 		{A9275E8C-766F-4760-9B6C-75C72AE728D2} = {B3532D52-62FC-4AFC-BAA3-A23A1D36A03A}
 		{D4870C97-8DC2-49EF-8398-D82B9F7CC83F} = {B3532D52-62FC-4AFC-BAA3-A23A1D36A03A}
+		{12F8C955-B158-4DE4-B601-7944A407C6BA} = {32C5928E-3D83-4AAB-9BBC-E993E8CAEE28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88D833D9-8A99-4FC5-A137-0A978E3703DF}
