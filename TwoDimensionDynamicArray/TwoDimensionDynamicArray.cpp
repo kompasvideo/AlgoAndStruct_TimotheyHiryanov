@@ -5,16 +5,13 @@ int main()
 {
     const int N = 5;
     const int M = 6;
+
     int **A;
-
-
-    //for (int i = 0; i < N; i++)
-    //{
-    //    for (int j = 0; j < M; j++)
-    //    {
-    //        A[i][j] = i * M + j;
-    //    }
-    //}
+    A = new int* [N];
+    for (int i = 0; i < N; i++)
+    {        
+        A[i] = new int[M];        
+    }
 
     //for (int i = 0; i < N; i++)
     //{
