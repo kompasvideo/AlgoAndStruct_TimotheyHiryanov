@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int find(int A[], int N, int x)
+int left_bound(int A[], int N, int x)
 {
     for(int i =0; i < N; i++)
     {
@@ -11,9 +11,10 @@ int find(int A[], int N, int x)
     return -1;
 }
 
+// линейный поиск
 int main()
 {
     int A[] = {5,2,3,4,6,2,3};
-    int res = find(A, 7, 4);
+    int res = left_bound(A, 7, 4);
     cout << res << endl;
 }
