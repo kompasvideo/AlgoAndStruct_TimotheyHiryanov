@@ -3,18 +3,17 @@ using namespace std;
 
 void insert_sort(int A[], int N)
 {
-    // for(int i = 0; i < N-1; i++)
-    // {
-    //     for(int j = i + 1; j < N; j++)
-    //     {
-    //         if (A[j]< A[i])
-    //         {
-    //             int temp = A[i];
-    //             A[i] = A[j];
-    //             A[j] = temp;
-    //         }
-    //     }    
-    // }   
+    for (int pos = 1; pos < N; pos++)
+    {
+        int i = pos;
+        while (i > 0 && A[i - 1] > A[i])
+        {
+             int t = A[i];
+            A[i] = A[i - 1];
+            A[i - 1] = t;
+            i -= 1;
+        }
+    }
 }
 
 // сортировка вставкой
