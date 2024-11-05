@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void counting_sort(int A[], int N)
+void radix_sort(int A[], int N)
 {
     int F[10] = {0};
     for (int i = 0; i < N; i++)
@@ -43,6 +43,6 @@ int main()
     generate_random_array(A, N, 10);
     print_array(A, N);
     cout << "counting sort " << endl;
-    counting_sort(A, N);
+    radix_sort(A, N);
     print_array(A, N);
 }
