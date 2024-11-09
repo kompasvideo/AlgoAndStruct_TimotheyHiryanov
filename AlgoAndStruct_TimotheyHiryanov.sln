@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_ChoiceSort", "Windows\Le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_SortingByCounting", "Windows\Lecture_8\05_SortingByCounting\05_SortingByCounting.vcxproj", "{3D369964-D4E9-4FE6-A9CB-B8C5B813FE63}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_RadixSort", "Windows\Lecture_8\06_RadixSort\06_RadixSort.vcxproj", "{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -227,6 +229,14 @@ Global
 		{3D369964-D4E9-4FE6-A9CB-B8C5B813FE63}.Release|x64.Build.0 = Release|x64
 		{3D369964-D4E9-4FE6-A9CB-B8C5B813FE63}.Release|x86.ActiveCfg = Release|Win32
 		{3D369964-D4E9-4FE6-A9CB-B8C5B813FE63}.Release|x86.Build.0 = Release|Win32
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Debug|x64.ActiveCfg = Debug|x64
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Debug|x64.Build.0 = Debug|x64
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Debug|x86.Build.0 = Debug|Win32
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Release|x64.ActiveCfg = Release|x64
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Release|x64.Build.0 = Release|x64
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Release|x86.ActiveCfg = Release|Win32
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +262,7 @@ Global
 		{B721E1F1-54D0-4CB3-B495-B75C1529DF35} = {5BC6E63B-44E7-430F-B167-54BBBB0F5854}
 		{399112CD-8CA2-49B1-BA92-2EB442146425} = {5BC6E63B-44E7-430F-B167-54BBBB0F5854}
 		{3D369964-D4E9-4FE6-A9CB-B8C5B813FE63} = {5BC6E63B-44E7-430F-B167-54BBBB0F5854}
+		{F3B9F32D-4A5B-4985-A6F1-DBBB0824BD95} = {5BC6E63B-44E7-430F-B167-54BBBB0F5854}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88D833D9-8A99-4FC5-A137-0A978E3703DF}
