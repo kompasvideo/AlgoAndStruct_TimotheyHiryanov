@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/andrejbarysnikov/Documents/C++/AlgoAndStruct_TimotheyHiryanov/MacOS/Lecture_4/SieveOfEratosthenes/SieveOfEratosthenes'
+relocations:     []
+...
