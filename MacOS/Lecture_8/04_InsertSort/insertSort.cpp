@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void radix_sort(int A[], int N)
+void select(int A[], int N)
 {
     for (int pos = 1; pos < N; pos++)
     {
@@ -27,7 +27,7 @@ int main()
     }
     cout << endl;
     cout << "insert sort " << endl;
-    radix_sort(A,N);
+    select(A,N);
     for(int i =0; i < N; i++)
     {
         cout << A[i] << '\t';

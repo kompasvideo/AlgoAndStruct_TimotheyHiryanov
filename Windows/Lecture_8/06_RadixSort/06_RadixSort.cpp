@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-void radix_sort(int A[], int N)
+void select(int A[], int N)
 {
 	int* a0 = new int[N];
 	int* a1 = new int[N];
@@ -42,6 +42,6 @@ int main()
 	int A[N] = { 9,8,7,6,5,4,3,2,1,0 };
 	print_array(A, N);
 	cout << "radix sort " << endl;
-	radix_sort(A, N);
+	select(A, N);
 	print_array(A, N);
 }
