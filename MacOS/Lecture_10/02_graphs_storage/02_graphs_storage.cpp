@@ -6,32 +6,45 @@ using namespace std;
 typedef int32_t vertex_t;
 typedef set<vertex_t> SetOfVertexes;
 
-class Graph_type1
+class AbstractGraph
 {
     public:
         int vertexes_numbers;
         int edges_numbers;
-        set<pair<vertex_t, vertex_t>> set_of_edges;
 
-    Graph_type1(): vertexes_numbers(0), edges_numbers(0) {}
+        virtual void input() = 0;
+        virtual void print() = 0;
+};
+
+class Graph_type2 : public AbstractGraph
+{
+    public:
+        // matrix of adjasency
+        vector<vector<bool>> matrix;
 
     void input()
     {
         cin >> vertexes_numbers;
+        matrix.resize(vertexes_numbers);
+        for(auto &line: matrix)
+        {
+            line.resize(vertexes_numbers, false);
+        }
         cin >> edges_numbers;
-        set_of_edges.clear();
+        matrix.clear();
         for(vertex_t i =0; i < edges_numbers; i++)
         {
             vertex_t a, b;
             cin >> a >> b;
-            set_of_edges.insert(make_pair(a,b));
+            matrix[a][b] = 1;
+            matrix[b][a] = 1;
         }
     }   
 
     void print() const
     {
         cout << "Vertex numbers = " << vertexes_numbers << endl;
-        for(auto edge: set_of_edges)
+        for(auto edge: matrix)
         {
             cout << "(" << edge.first << ", " << edge.second << ") ";
         }
@@ -40,7 +53,7 @@ class Graph_type1
 }; 
 int main()
 {
-    Graph_type1 g1;
+    Graph_type2 g1;
     g1.input();
     g1.print();
     return 0;
