@@ -14,7 +14,6 @@ int left_bound(int A[], int N, int x)
 int main()
 {
     int A[] = {5,2,3,4,6,2,3};
-    int res = left_bound(A,7,6);
+    int res = left_bound(A,7,4);
     cout << res << endl;
-    return 0;
 }

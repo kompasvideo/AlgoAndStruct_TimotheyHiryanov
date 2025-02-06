@@ -8,7 +8,7 @@ void select(int A[], int N)
         int i = pos;
         while (i > 0 and A[i - 1] > A[i])
         {
-             int t = A[i];
+            int t = A[i];
             A[i] = A[i - 1];
             A[i - 1] = t;
             i -= 1;
