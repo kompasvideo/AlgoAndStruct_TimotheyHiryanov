@@ -14,15 +14,7 @@ int main()
 		sieve[i] = true;
 	}
 	int x = 2;
-	while (x * x < n + 1)
-	{
-		if (sieve[x])
-		{
-			for (int y = x*2; y < n + 1; y += x)			
-				sieve[y] = false;			
-		}
-		x++;
-	}
+	
 	for (int i = 2; i < n + 1; i++)
 	{
 		if (sieve[i])		
