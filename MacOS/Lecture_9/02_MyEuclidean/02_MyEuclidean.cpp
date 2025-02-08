@@ -3,7 +3,7 @@ using namespace std;
 
 int euclide_gcd(int a, int b)
 {
- 
+
 }
 
 int main()
