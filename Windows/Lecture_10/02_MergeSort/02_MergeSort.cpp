@@ -25,9 +25,34 @@ void merge_sort(double* A, int16_t n)
     {
         if (left[left_i] <= right[right_i])
         {
-
+            buffer[buffer_i] = left[left_i];
+            left_i++;
+            buffer_i++;
+        }
+        else
+        {
+            buffer[buffer_i] = right[right_i];
+            right_i++;
+            buffer_i++;
         }
     }
+    while (left_i < left_size)
+    {
+        buffer[buffer_i] = left[left_i];
+        left_i++;
+        buffer_i++;
+    }
+    while (right_i < right_size)
+    {
+        buffer[buffer_i] = right[right_i];
+        right_i++;
+        buffer_i++;
+    }
+    for (int16_t i = 0; i < n; i++)
+    {
+        A[i] = buffer[i];
+    }
+    delete[] buffer;
 }
 
 void print_array(double* A, int16_t n)
