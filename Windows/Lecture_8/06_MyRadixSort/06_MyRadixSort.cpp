@@ -5,7 +5,6 @@ void select(int A[], int N)
 {
 	int* a0 = new int[N];
 	int* a1 = new int[N];
-
 	for (int radix = 0; radix < 32; radix++)
 	{
 		int a0_size = 0;
@@ -16,11 +15,11 @@ void select(int A[], int N)
 				a0[a0_size++] = A[i];
 			else
 				a1[a1_size++] = A[i];
+			for (int i = 0; i < a0_size; i++)			
+				A[i] = a0[i];
+			for (int i = 0; i < a1_size; i++)
+				A[i + a0_size] = a1[i];
 		}
-		for (int i = 0; i < a0_size; i++)		
-			A[i] = a0[i];
-		for (int i = 0; i < a1_size; i++)
-			A[i + a0_size] = a1[i];
 	}
 	delete[] a0;
 	delete[] a1;
