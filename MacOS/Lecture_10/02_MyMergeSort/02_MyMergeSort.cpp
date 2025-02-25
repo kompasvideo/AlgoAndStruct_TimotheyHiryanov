@@ -11,8 +11,7 @@ void input_array(double *A, int16_t n)
 
 void merge_sort(double *A, int16_t n)
 {
-    if (n <= 1) return;
-    
+
 }
 
 
@@ -35,8 +34,8 @@ int main()
     // }
     // double *A = new double[n];
     int16_t n = 4;
-    double *A = new double[n];
-    input_array(A, n);
+    double *A = new double[n]{5,4,3,2};
+    //input_array(A, n);
     merge_sort(A, n);
     print_array(A, n);
     delete[] A;
