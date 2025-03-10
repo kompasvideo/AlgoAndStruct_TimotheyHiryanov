@@ -7,7 +7,7 @@ int main()
     int A[N] = {5,3,2,1,4};
     int i = 0;
     
-
+    
 
     for(int i = 0; i < N; i++)
         cout << A[i] << '\t';
