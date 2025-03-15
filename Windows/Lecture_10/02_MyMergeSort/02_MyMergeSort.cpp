@@ -11,16 +11,7 @@ void input_array(double* A, int16_t n)
 
 void merge_sort(double* A, int16_t n)
 {
-    if(n <= 1) return;
-    int middle = n / 2;
-    double* left = A;
-    double* right = A + middle;
-    int left_size = middle;
-    int right_size = n - middle;
-    merge_sort(left, left_size);
-    merge_sort(right, right_size);
-    double* buffer = new double[n];
-
+   
 }
 
 void print_array(double* A, int16_t n)
@@ -42,10 +33,10 @@ int main()
     }
     double* A = new double[n];*/
     const int n = 10;
-    double A[n] = { 9,8,7,6,5,4,3,2,1,0 };
-    input_array(A, n);
+    double A[n] = { 9,1,7,6,5,4,3,2,1,0 };
+    //input_array(A, n);
     merge_sort(A, n);
     print_array(A, n);
-    delete[] A;
+    //delete[] A;
     return 0;
 }

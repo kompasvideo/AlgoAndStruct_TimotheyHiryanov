@@ -24,6 +24,8 @@ void permutations(int16_t number, int16_t current,
     }
 }
 
+// перебор с возвратом
+// метод ветвления и границ
 // перестановки чисел
 int main()
 {
