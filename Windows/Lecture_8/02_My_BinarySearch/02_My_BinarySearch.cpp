@@ -3,12 +3,12 @@ using namespace std;
 
 int left_bound(int A[], int N, int x)
 {
-
+  
 }
 
 int find(int A[], int N, int x)
 {
-
+  
 }
 
 int main()
