@@ -3,7 +3,7 @@ using namespace std;
 
 int euclide(int a, int b)
 {
-
+   
 }
 
 // рекурсия алгоритма евклида
