@@ -3,7 +3,7 @@ using namespace std;
 
 const int MAX_BINARY_DIGITS_TO_GENERATE = 100;
 
-void permutations(int16_t number, int16_t current, 
+void permutations(int16_t number, int16_t current,
 	int16_t buffer[], bool used[])
 {
 	

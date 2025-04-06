@@ -3,8 +3,9 @@ using namespace std;
 
 int min_cost(int n, int price[])
 {
-   
+    
 }
+
 
 // кузнечик
 int main()
