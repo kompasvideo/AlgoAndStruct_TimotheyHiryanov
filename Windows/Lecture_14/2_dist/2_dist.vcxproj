@@ -24,6 +24,7 @@
     <ProjectGuid>{3bcefb2c-4459-4359-bac1-c2ca82f951c7}</ProjectGuid>
     <RootNamespace>My2dist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2_prefix_kmp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

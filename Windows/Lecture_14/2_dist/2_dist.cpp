@@ -2,14 +2,32 @@
 #include <string>
 #include <vector>
 
+std::vector<int> prefix_function_kmp(std::string s)
+{
+    int n = s.length();
+    std::vector<int> pi(n, 0);
+    for (int i = 1; i < n; ++i)
+    {
+        int k = pi[i - 1];
+        while (k > 0 and s[i] != s[k])
+        {
+            k = pi[k - 1];
+        }
+        if (s[i] == s[k])
+            k++;
+        pi[i] = k;
+    }
+    return pi;
+}
+
 int main()
 {
-    std::string line;
-    getline(std::cin, line);
-    std::string tmp;
-    getline(std::cin, tmp);
+    std::string line = "accabacbabacabacabaabacaaba";
+    //getline(std::cin, line);
+    std::string tmp = "abacaba";
+    //getline(std::cin, tmp);
     std::string summary = tmp + '#' + line;
-    std::vector<int> pi = prefex_function_kmp(summary);
+    std::vector<int> pi = prefix_function_kmp(summary);
 
     int counter = 0;
     for (auto x : pi)
