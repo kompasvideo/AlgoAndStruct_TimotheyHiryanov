@@ -8,14 +8,22 @@ private:
     string name;
     string group;
     int age;
+    double* memory;
 
 public:
-    void init()
+    Student(string name_, string group_, int age_)
     {
-        name = "Vasya";
-        group = "B02-999";
-        age = 18;
+        name = name_;
+        group = group_;
+        age = age_;
         cout << "Hooray!!! Me " << name << " enrolled to the course" << endl;
+        memory = new double[100];
+    }
+
+    ~Student()
+    {
+        cout << "Ouch!!! Me " << name << " dismissed from the course" << endl;
+        delete[] memory;
     }
 
     void print() const
@@ -32,12 +40,12 @@ public:
 
 int main()
 {
-    Student a, b;
-    a.init();
+    Student a("Petya", "B02-991", 18);
     a.print();
     a.ageing();
     a.print();
 
+    Student b("Vasya", "B012", 17);
     b.print();
     b = a;
     b.print();
