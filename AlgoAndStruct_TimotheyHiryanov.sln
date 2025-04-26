@@ -189,7 +189,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_18", "Lecture_18", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_fin_automata_1", "Windows\Lecture_18\1_fin_automata_1\1_fin_automata_1.vcxproj", "{D989CA00-E07F-466B-97A1-DFD1EB7FEC0B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_fin_automata_2", "2_fin_automata_2\2_fin_automata_2.vcxproj", "{ED1AE733-3E93-469A-944C-073691079678}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_fin_automata_2", "Windows\Lecture_18\2_fin_automata_2\2_fin_automata_2.vcxproj", "{ED1AE733-3E93-469A-944C-073691079678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
