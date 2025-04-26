@@ -8,6 +8,7 @@ inline bool is_alpha(char symbol)
         or (symbol >= 'A' and symbol <= 'Z');
 }
 
+// конечный автомат - goto
 int main()
 {
     string s;
