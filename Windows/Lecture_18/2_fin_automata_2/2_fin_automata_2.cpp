@@ -14,6 +14,7 @@ enum AutomateState
     in_word = 1,
 };
 
+// конечный автомат - switch
 int main()
 {
     string s;
