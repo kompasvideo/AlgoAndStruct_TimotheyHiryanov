@@ -1,11 +1,11 @@
 #include <iostream>
-#include <set>
+#include <unordered_set>
 #include <string>
 using namespace std;
 
 void set_example()
 {
-    set<string> words;
+    unordered_set<string> words;
     string word;
     getline(cin, word);
     while (word != "")
