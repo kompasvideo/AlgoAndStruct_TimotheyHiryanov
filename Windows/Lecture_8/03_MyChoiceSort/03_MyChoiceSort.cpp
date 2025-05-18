@@ -4,6 +4,7 @@ using namespace std;
 void insert_sort(int A[], int N)
 {    
     
+    
 }
 
 // сортировка выбором
