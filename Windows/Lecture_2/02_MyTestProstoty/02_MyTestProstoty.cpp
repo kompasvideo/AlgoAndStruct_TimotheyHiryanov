@@ -5,9 +5,10 @@ int main()
 {
     using namespace std;
     bool flag = true;
-    uint32_t x;
-    cout << "Input x: ";
-    cin >> x;
+    uint32_t x = 38;
+   /* cout << "Input x: ";
+    cin >> x;*/
+    // for
 
     cout << "flag: " << flag << endl;
 }

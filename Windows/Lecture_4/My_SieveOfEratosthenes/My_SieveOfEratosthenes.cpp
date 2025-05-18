@@ -34,20 +34,15 @@ using namespace std;
 
 int main()
 {
-	cout << "Input number: ";
-	int n;
-	cin >> n;
+	//cout << "Input number: ";
+	int n = 43;
+	//cin >> n;
 	int* sieve = new int[n + 1];
-	for (int i = 2; i < n + 1; i++)	
+	for (int i = 2; i < n + 1; i++)
 		sieve[i] = true;
-	int x = 2;
-	while (x * x <= n )
-	{
-		if (sieve[x])
-			for (int k = x*x; k < n + 1; k += x)
-				sieve[k] = false;
-		x++;
-	}
+
+	
+
 	for (int i = 1; i < n + 1; i++)
 	{
 		if (sieve[i])
