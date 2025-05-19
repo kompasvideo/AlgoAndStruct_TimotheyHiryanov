@@ -3,7 +3,7 @@
 int main()
 {
     using namespace std;
-    uint32_t i = 845;
+    uint32_t i = 745;
     //cout << "Input number: ";
     //cin >> i;
     bool flag = false;

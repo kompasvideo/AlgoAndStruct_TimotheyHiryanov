@@ -13,7 +13,7 @@ public:
     int edges_numbers;
 
     virtual void input() = 0;
-    virtual void print() = 0;
+    virtual void print() const = 0;
 };
 
 class Graph_type2 : public AbstractGraph
@@ -31,7 +31,6 @@ public:
             line.resize(vertexes_numbers, false);
         }
         cin >> edges_numbers;
-        matrix.clear();
         for (vertex_t i = 0; i < edges_numbers; i++)
         {
             vertex_t a, b;
@@ -44,9 +43,13 @@ public:
     void print() const
     {
         cout << "Vertex numbers = " << vertexes_numbers << endl;
-        for (auto edge : matrix)
+        for (vertex_t a = 0; a < vertexes_numbers; a++)
         {
-            cout << "(" << edge.first << ", " << edge.second << ") ";
+            for (vertex_t b = 0; b < vertexes_numbers; b++)
+            {
+                cout << matrix[a][b] << "  ";
+            }
+            cout << endl;
         }
         cout << endl;
     }
