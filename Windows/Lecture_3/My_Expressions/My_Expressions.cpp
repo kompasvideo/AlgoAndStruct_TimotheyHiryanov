@@ -9,16 +9,7 @@ int main()
     //cin >> i;
     int k = 2;
 
-    while (i != 1)
-    {
-        if (i % k == 0)
-        {
-            cout << k << '\t';
-            i /= k;
-        }
-        else
-            k++;
-    }
+  
     
     cout << endl;
 }

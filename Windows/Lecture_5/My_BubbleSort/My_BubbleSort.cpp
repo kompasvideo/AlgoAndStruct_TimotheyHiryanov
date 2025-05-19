@@ -8,8 +8,8 @@ int main()
     bool is_sorted = false;
     int i = 0;
 
-   
     
+        
     for (int i = 0; i < N; ++i)
         cout << A[i] << "\t";
 }

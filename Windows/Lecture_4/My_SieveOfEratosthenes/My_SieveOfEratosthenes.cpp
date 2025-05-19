@@ -3,16 +3,37 @@ using namespace std;
 
 // –ешето Ёратосфена - поиск простых чисел до числа n
 // 2 3 5 7 11 13 17 19 23 29 31 37 41 43
+int main()
+{
+	int n = 43;
+	bool* sieve = new bool[n + 1];
+	for (int i = 2; i < n + 1; i++)
+	{
+		sieve[i] = true;
+	}
+
+	
+
+	for (int i = 2; i < n + 1; i++)
+	{
+		if (sieve[i])
+			cout << i << "  ";
+	}
+	cout << endl;
+}
+
+
+
+// –ешето Ёратосфена - поиск простых чисел до числа n
+// 2 3 5 7 11 13 17 19 23 29 31 37 41 43
 //int main()
 //{
-//	cout << "input number: ";
-//	int n = 0;
+//	cout << "Input number: ";
+//	int n ;
 //	cin >> n;
-//	bool* sieve = new bool[n + 1];
+//	int* sieve = new int[n + 1];
 //	for (int i = 2; i < n + 1; i++)
-//	{
 //		sieve[i] = true;
-//	}
 //	int x = 2;
 //	while (x * x <= n)
 //	{
@@ -23,30 +44,10 @@ using namespace std;
 //		}
 //		x += 1;
 //	}
-//	for (int i = 2; i < n + 1; i++)
+//	for (int i = 1; i < n + 1; i++)
 //	{
 //		if (sieve[i])
-//			cout << i << "  ";
+//			cout << i << '\t';
 //	}
 //	cout << endl;
 //}
-
-
-int main()
-{
-	//cout << "Input number: ";
-	int n = 43;
-	//cin >> n;
-	int* sieve = new int[n + 1];
-	for (int i = 2; i < n + 1; i++)
-		sieve[i] = true;
-
-	
-
-	for (int i = 1; i < n + 1; i++)
-	{
-		if (sieve[i])
-			cout << i << '\t';
-	}
-	cout << endl;
-}
