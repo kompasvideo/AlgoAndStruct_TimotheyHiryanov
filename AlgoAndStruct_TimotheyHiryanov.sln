@@ -91,7 +91,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_SortingByCountingSort", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_SortRadix", "Windows\Sort\06_SortRadix\06_SortRadix.vcxproj", "{26AAA5BA-1641-4ACB-9756-6733F7B22C88}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_22", "Lecture_22", "{1B77438F-AFCF-471B-AC21-3E657CB322F5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_25", "Lecture_25", "{1B77438F-AFCF-471B-AC21-3E657CB322F5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_BubbleWiki", "Windows\Sort\01_BubbleWiki\01_BubbleWiki.vcxproj", "{70823476-88EF-4358-BEA7-F41F8CF1F99C}"
 EndProject
@@ -205,9 +205,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_set", "Windows\Lecture_21
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_unordered", "Windows\Lecture_21\2_set\2_set.vcxproj", "{D961FA4F-F58B-4F11-9C9F-40E4480DEE38}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_graphs_storage", "Windows\Lecture_22\01_graphs_storage\01_graphs_storage.vcxproj", "{30CC9F58-DE0D-4915-B563-6F45E153DA63}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_graphs_storage", "Windows\Lecture_25\01_graphs_storage\01_graphs_storage.vcxproj", "{30CC9F58-DE0D-4915-B563-6F45E153DA63}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_graphs_storage", "Windows\Lecture_22\02_graphs_storage\02_graphs_storage.vcxproj", "{EE374319-98A8-4AEB-8AE7-E2D2C0524C48}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_graphs_storage", "Windows\Lecture_25\02_graphs_storage\02_graphs_storage.vcxproj", "{EE374319-98A8-4AEB-8AE7-E2D2C0524C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
