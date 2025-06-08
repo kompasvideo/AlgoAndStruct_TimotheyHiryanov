@@ -5,12 +5,14 @@ using namespace std;
 
 uint64_t fib_recursive(int n)
 {
-    
+    if (n <= 1)
+        return n;
+    return fib_recursive(n - 1) + fib_recursive(n - 2);
 }
 
 uint64_t fib_dynamic(int n)
 {
-   
+    
 }
 
 // кузнечик на прямой, скачет на 1 или 2 клетки

@@ -2,13 +2,23 @@
 
 using namespace std;
 
+void print(int i, int A[], int N)
+{
+    cout << i << " - \t";
+    for (int i = 0; i < N; ++i)
+        cout << A[i] << "\t";
+    cout << endl;
+}
+
 int main()
 {
     //bubble_sort
     const int N = 5;
-    int A[N] = { 1,3,2,5,4 };
+    int A[N] = { 5,3,2,1,4 };
 
     bool is_sorted = false;
+    print(-1, A, N);
+
     while (not is_sorted) {
         int i = 0;
         is_sorted = true;
@@ -19,10 +29,10 @@ int main()
                 A[i + 1] = tmp;
                 is_sorted = false;
             }
+            print(i, A, N);
             i++;
         }
     }
-    for (int i = 0; i < N; ++i)
-        cout << A[i] << "\t";
-    cout << "\n";
+
+    print(-2, A, N);
 }
