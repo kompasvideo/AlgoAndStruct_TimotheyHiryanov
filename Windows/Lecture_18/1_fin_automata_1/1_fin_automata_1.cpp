@@ -42,6 +42,7 @@ in_word:
     {
         pos++;
         cout << "word length: " << word_len << endl;
+        word_len = 0;
         goto out_of_word;
     }
 the_end:

@@ -4,7 +4,7 @@ using namespace std;
 
 double max_backpack_value(vector<pair<int, double>> treasures, int capacity)
 {
-
+   
 }
 
 // задача об укладке рюкзака
