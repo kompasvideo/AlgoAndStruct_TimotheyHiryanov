@@ -4,12 +4,12 @@ using namespace std;
 
 int ant_recursice(int i, int j)
 {
-    
+   
 }
 
 int ant_dynamic(int n, int m)
 {
-  
+    
 }
 
 // Двумерное динамическое программирование - кузнечик ходит -> и ↓
