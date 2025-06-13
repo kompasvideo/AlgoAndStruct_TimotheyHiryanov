@@ -213,7 +213,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_My_fin_automata_2", "Wind
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_dfs", "Windows\Lecture_27\01_dfs\01_dfs.vcxproj", "{30CC9F58-DE0D-4915-B563-6F45E153DA63}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_graphs_storage", "Windows\Lecture_27\02_bfs\02_graphs_storage.vcxproj", "{D43D273D-365A-41FB-9A49-3D5E199D6786}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_bfs", "Windows\Lecture_27\02_bfs\02_graphs_storage.vcxproj", "{D43D273D-365A-41FB-9A49-3D5E199D6786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
