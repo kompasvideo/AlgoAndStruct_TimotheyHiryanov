@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{30cc9f58-de0d-4915-b563-6f45e153da63}</ProjectGuid>
-    <RootNamespace>My01graphsstorage</RootNamespace>
+    <ProjectGuid>{D43D273D-365A-41FB-9A49-3D5E199D6786}</ProjectGuid>
+    <RootNamespace>My02graphsstorage</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02_bfs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_graphs_storage.cpp" />
+    <ClCompile Include="02_bfs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
