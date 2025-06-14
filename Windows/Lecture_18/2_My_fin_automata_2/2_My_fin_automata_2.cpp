@@ -23,5 +23,6 @@ int main()
     AutomateState state = out_of_word;
     int word_len = 0;
     
+
     return 0;
 }
