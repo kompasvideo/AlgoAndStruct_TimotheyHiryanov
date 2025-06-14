@@ -1,52 +1,42 @@
-#include <iostream>
-#include <vector>
-using namespace std;
+#include "GRAPH.HPP"
 
-int n;
-vector<vector<int>> g;
-vector<char> cl;
-vector<int> p;
-int cycle_st, cycle_end;
-
-bool dfs(int v) {
-	cl[v] = 1;
-	for (size_t i = 0; i < g[v].size(); ++i) {
-		int to = g[v][i];
-		if (cl[to] == 0) {
-			p[to] = v;
-			if (dfs(to))  return true;
-		}
-		else if (cl[to] == 1) {
-			cycle_end = v;
-			cycle_st = to;
-			return true;
-		}
-	}
-	cl[v] = 2;
-	return false;
+bool check_DAG(const OrGraph_t& graph, vertex_t start, vector<bool>& used)
+{
+    used[start] = true;
+    auto neighbours_list = graph.sets_of_neighbour[start];
+    for (auto neighbour : neighbours_list)
+    {
+        if (neighbour == start)
+            continue;
+        if (used[neighbour])  // ѕытаемс€ попасть в соседнюю в ранее пройденную вершину - цикл
+            return false;
+        bool is_DAG = check_DAG(graph, neighbour, used);
+        if (not is_DAG)
+            return false;
+    }
+    return true; // достигаю этой точки, если цикл не найден
 }
 
-int main() {
-	// чтение графа ...
-
-	p.assign(n, -1);
-	cl.assign(n, 0);
-	cycle_st = -1;
-	for (int i = 0; i < n; ++i)
-		if (dfs(i))
-			break;
-
-	if (cycle_st == -1)
-		puts("Acyclic");
-	else {
-		puts("Cyclic");
-		vector<int> cycle;
-		cycle.push_back(cycle_st);
-		for (int v = cycle_end; v != cycle_st; v = p[v])
-			cycle.push_back(v);
-		cycle.push_back(cycle_st);
-		reverse(cycle.begin(), cycle.end());
-		for (size_t i = 0; i < cycle.size(); ++i)
-			printf("%d ", cycle[i] + 1);
-	}
+int main()
+{
+    OrGraph_t g;
+    g.input();
+    g.print();
+    vector<bool> used_vertexes;
+    used_vertexes.resize(g.edges_numbers, false);
+    bool is_DAG = true;
+    for (vertex_t v = 0; v < g.vertexes_numbers; v++)
+    {
+        if (used_vertexes[v]) continue;
+        if (not check_DAG(g, v, used_vertexes))
+        {
+            is_DAG = false;
+            break;
+        }
+    }
+    if (is_DAG)
+        cout << "Acyclic graph\n";
+    else
+        cout << "Cyclic graph\n";
+    return 0;
 }
