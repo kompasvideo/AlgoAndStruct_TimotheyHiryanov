@@ -1,18 +1,17 @@
 #include <iostream>
-using namespace std;
 
-int euclid(int f, int s)
-{
+// Наибольший общий делитель - алгоритм Евклида
+int euclid_gcd(int a, int b) {
 
 }
 
-int main()
-{
-	cout << "Enter first number: ";
-	int f;
-	cin >> f;
-	cout << "Enter second number: ";
-	int s;
-	cin >> s;
-	cout << euclid(f, s) << endl;
+int main() {
+    using namespace std;
+    int x, y;
+    cout << "Enter integer. x = ";
+    cin >> x;
+    cout << "Enter integer. y = ";
+    cin >> y;
+    cout << "GCD(x,y) = " << euclid_gcd(x, y);
+    return 0;
 }
