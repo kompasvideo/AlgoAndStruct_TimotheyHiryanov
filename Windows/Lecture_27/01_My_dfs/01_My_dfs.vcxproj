@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b1480c29-c5da-485e-9cd1-8c21aca17291}</ProjectGuid>
-    <RootNamespace>My03Select</RootNamespace>
+    <ProjectGuid>{9c5703d8-8ffb-4d4a-ba6a-143e1ef93634}</ProjectGuid>
+    <RootNamespace>My01Mydfs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>03_Select</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="03_Select.cpp" />
+    <ClCompile Include="01_My_dfs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input1.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

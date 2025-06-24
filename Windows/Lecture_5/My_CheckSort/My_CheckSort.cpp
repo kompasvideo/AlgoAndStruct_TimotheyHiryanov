@@ -17,7 +17,18 @@ int main()
     int i = 0;
     print(-1, A, N);
    
-    
+    while (i < N - 1)
+    {
+        if (A[i] > A[i + 1])
+        {
+            int tmp = A[i];
+            A[i] = A[i + 1];
+            A[i + 1] = tmp;
+            i = 0;
+        }
+        else
+            i++;
+    }
 
     print(-2, A, N);
 }

@@ -10,6 +10,7 @@ void print(int i, int A[], int N)
     cout << endl;
 }
 
+// дурацкая сортировка
 int main()
 {
     const int N = 5;

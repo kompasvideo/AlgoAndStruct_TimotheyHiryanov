@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02_Check.cpp">
+    <ClCompile Include="1_My_rabin_karp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

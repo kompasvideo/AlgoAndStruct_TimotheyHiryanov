@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{687266d2-edb5-491c-842a-0ac2321c3765}</ProjectGuid>
-    <RootNamespace>My02Check</RootNamespace>
+    <ProjectGuid>{6d371db8-ad7d-404e-abe6-e82f2808e539}</ProjectGuid>
+    <RootNamespace>My02Mybfs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02_Check.cpp" />
+    <ClCompile Include="02_My_bfs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

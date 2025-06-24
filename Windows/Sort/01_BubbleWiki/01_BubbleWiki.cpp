@@ -9,8 +9,22 @@ int main()
 	{
 		cout << A[i] << '\t';
 	}
-	cout << "Bubble sort" << endl;
-
+	cout << "\nBubble sort" << endl;
+    
+    for (int j = 1; j < n; j++) {
+        bool isSorted = true;
+        for (int i = 0; i < n - j; i++) {
+            if (A[i] > A[i + 1]) {
+                int tmp = A[i];
+                A[i] = A[i + 1];
+                A[i + 1] = tmp;
+                isSorted = false;
+            }
+        }
+        if (isSorted) {
+            break;
+        }
+    }
 	for (int i = 0; i < n; i++)
 	{
 		cout << A[i] << '\t';
