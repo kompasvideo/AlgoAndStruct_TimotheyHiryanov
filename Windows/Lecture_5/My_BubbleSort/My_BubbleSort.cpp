@@ -17,7 +17,7 @@ int main()
     int i = 0;
     print(A, N);
 
-    
+  
         
     print(A, N);
 }
