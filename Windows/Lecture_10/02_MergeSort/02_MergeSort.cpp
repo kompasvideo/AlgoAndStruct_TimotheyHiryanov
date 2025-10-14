@@ -62,7 +62,7 @@ void print_array(double* A, int16_t n)
     cout << endl;
 }
 
-// ���������� ��������
+// сортировка слиянием
 int main()
 {
     int16_t n;
