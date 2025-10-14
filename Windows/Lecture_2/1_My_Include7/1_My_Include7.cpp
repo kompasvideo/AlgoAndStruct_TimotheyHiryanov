@@ -8,6 +8,6 @@ int main()
     //cin >> i;
     bool flag = false;
 
-   
+    
     cout << "flag: " << flag;
 }

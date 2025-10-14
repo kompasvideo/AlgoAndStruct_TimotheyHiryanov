@@ -9,7 +9,7 @@ using namespace std;
 */
 void hanoi(int i, int k, int n)
 {
-    
+
 }
 
 int main()

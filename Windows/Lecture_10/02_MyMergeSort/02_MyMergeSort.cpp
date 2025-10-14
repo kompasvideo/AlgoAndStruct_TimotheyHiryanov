@@ -11,7 +11,7 @@ void input_array(double* A, int16_t n)
 
 void merge_sort(double* A, int16_t n)
 {
-   
+
 }
 
 void print_array(double* A, int16_t n)

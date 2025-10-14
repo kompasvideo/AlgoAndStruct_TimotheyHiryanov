@@ -9,9 +9,10 @@ void print(int i, int A[], int N)
     cout << endl;
 }
 
+// for while
 void insert_sort(int A[], int N)
 {
-  
+   
 }
 
 // сортировка вставкой

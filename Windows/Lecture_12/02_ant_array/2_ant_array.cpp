@@ -40,7 +40,7 @@ int main()
 {
     int (*ant)(int, int);
     int version = 0;
-    cout << "Which version of function to use? (0 - recursive, 1 - dynamic\n";
+    cout << "Which version of function to use? (0 - recursive, 1 - dynamic)\n";
     cin >> version;
     if (version == 0)
         ant = ant_recursive;

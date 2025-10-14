@@ -11,11 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_TestProstoty", "Windows\L
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_RazlozhNaMnozhiteli", "Windows\Lecture_2\RazlozhNaMnozhiteli\RazlozhNaMnozhiteli.vcxproj", "{CA80F12D-85F7-47CA-B376-740ED20ED218}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_03", "Lecture_03", "{A784CBA6-6E07-4EB6-B698-1D74CF44D110}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_03", "___Lecture_03", "{A784CBA6-6E07-4EB6-B698-1D74CF44D110}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Expressions", "Windows\Lecture_3\Expressions\Expressions.vcxproj", "{7FD6EEE5-4C96-449F-8165-F7729716344E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_04", "Lecture_04", "{95ACA36F-4D0F-41D9-9DF8-947CFB5D001C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_04", "___Lecture_04", "{95ACA36F-4D0F-41D9-9DF8-947CFB5D001C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SieveOfEratosthenes", "Windows\Lecture_4\SieveOfEratosthenes\SieveOfEratosthenes.vcxproj", "{1A72FD93-E085-4C46-9B7B-9C169A80D0F2}"
 EndProject
@@ -29,13 +29,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckSort", "Windows\Lectur
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lec_05_BubbleSort", "Windows\Lecture_5\lec_05\lec_05.vcxproj", "{29377CB2-F033-4393-B85F-5D7223E171FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_06", "Lecture_06", "{B3532D52-62FC-4AFC-BAA3-A23A1D36A03A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_06", "___Lecture_06", "{B3532D52-62FC-4AFC-BAA3-A23A1D36A03A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lec_6", "Windows\Lecture_6\lec_6\lec_6.vcxproj", "{8F48C1DC-41B3-4FE3-9FC2-76A7D29E9018}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "malloc_c", "Windows\Lecture_6\malloc_c\malloc_c.vcxproj", "{A9275E8C-766F-4760-9B6C-75C72AE728D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_07", "Lecture_07", "{32C5928E-3D83-4AAB-9BBC-E993E8CAEE28}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_07", "___Lecture_07", "{32C5928E-3D83-4AAB-9BBC-E993E8CAEE28}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoDimensionArray", "Windows\Lecture_7\TwoDimensionArray\TwoDimensionArray.vcxproj", "{12F8C955-B158-4DE4-B601-7944A407C6BA}"
 EndProject
@@ -145,7 +145,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_My_ant_array", "Windows\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_My_backpack", "Windows\Lecture_12\03_My_backpack\03_My_backpack.vcxproj", "{E34E7CB4-0E43-4C46-9926-B7282A3B7694}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_13", "Lecture_13", "{A07A65BA-75FC-4B4C-B416-8BE29A158C97}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_13", "___Lecture_13", "{A07A65BA-75FC-4B4C-B416-8BE29A158C97}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_strCat_problem", "Windows\Lecture_13\1_strCat_problem\1_strCat_problem.vcxproj", "{AF53A858-95B9-48DC-A872-51B6269DBE56}"
 EndProject
@@ -153,19 +153,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_strCat_Solution", "Window
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_levenstein", "Windows\Lecture_13\3_levenstein\3_levenstein.vcxproj", "{6ECAE1D8-05A1-4831-9A34-AA1E25D48EE2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_14", "Lecture_14", "{68BC870C-78B3-4B60-864E-40C17F9723A6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_14", "___Lecture_14", "{68BC870C-78B3-4B60-864E-40C17F9723A6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_list", "Windows\Lecture_14\1_list\1_list.vcxproj", "{79498142-C721-43D4-A177-1B2F15E2FD9F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_prefix_kmp", "Windows\Lecture_14\2_dist\2_dist.vcxproj", "{3BCEFB2C-4459-4359-BAC1-C2CA82F951C7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_16", "Lecture_16", "{7CD78245-8BE1-4885-958E-F68E182B4AA0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_16", "___Lecture_16", "{7CD78245-8BE1-4885-958E-F68E182B4AA0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_vector_usage", "Windows\Lecture_16\1_vector_usage\1_vector_usage.vcxproj", "{98ADB19F-8ECF-417B-BFFB-CFAC6CD9ABBD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_list_usage", "Windows\Lecture_16\2_list_usage\2_list_usage.vcxproj", "{A67E23DF-BF2B-4DBE-88F9-C82F4AF6ACB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture_17", "Lecture_17", "{D2B9E73C-3FA3-4E65-98F6-D647E9E112BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "___Lecture_17", "___Lecture_17", "{D2B9E73C-3FA3-4E65-98F6-D647E9E112BD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_simple_class", "Windows\Lecture_17\1_simple_class\1_simple_class.vcxproj", "{21DE666C-C64A-436C-9070-E5239755419E}"
 EndProject

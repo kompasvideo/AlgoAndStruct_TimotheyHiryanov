@@ -11,7 +11,6 @@ void print(int i, int A[], int N)
 
 void select(int A[], int N)
 {
-   
 }
 
 void generate_random_array(int A[], int N, int M)
