@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void select(int A[], int N)
+void radix_sort(int A[], int N)
 {
-
+	
 }
 
 void print_array(int A[], int N)
@@ -22,6 +22,6 @@ int main()
 	int A[N] = { 9,8,7,6,5,4,3,2,1,0 };
 	print_array(A, N);
 	cout << "radix sort " << endl;
-	select(A, N);
+	radix_sort(A, N);
 	print_array(A, N);
 }

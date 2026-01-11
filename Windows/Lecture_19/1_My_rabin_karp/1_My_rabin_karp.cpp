@@ -12,7 +12,7 @@ int main()
     string pattern;
     getline(cin, pattern);
 
-    // считаем все степени p
+    // считаем все степени p    
 
     // считаем хэши от всех префиксов строки  pattern
 
