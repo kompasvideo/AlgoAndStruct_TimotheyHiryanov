@@ -16,8 +16,7 @@ int main()
     bool is_sorted = false;
     int i = 0;
     print(A, N);
-
    
-        
+            
     print(A, N);
 }

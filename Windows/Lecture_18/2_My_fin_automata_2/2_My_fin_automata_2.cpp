@@ -17,12 +17,8 @@ enum AutomateState
 // конечный автомат - switch
 int main()
 {
-    string s;
-    getline(cin, s);
-    cout << s << endl;
-    AutomateState state = out_of_word;
-    int word_len = 0;
     
-
     return 0;
 }
+
+// s1 +asd1  asd 

@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-void insert_sort(int A[], int N)
+void choice_sort(int A[], int N)
 {
     for (int pos = 1; pos < N; pos++)
     {
@@ -27,7 +27,7 @@ int main()
     }
     cout << endl;
     cout << "InsertSort" << endl;
-    insert_sort(A, N);
+    choice_sort(A, N);
     for (int i = 0; i < N; i++)
     {
         cout << A[i] << '\t';

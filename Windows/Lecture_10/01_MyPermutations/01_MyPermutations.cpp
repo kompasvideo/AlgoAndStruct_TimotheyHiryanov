@@ -6,7 +6,25 @@ const int MAX_BINARY_DIGITS_TO_GENERATE = 100;
 void permutations(int16_t number, int16_t current,
 	int16_t buffer[], bool used[])
 {
-
+	if (current == number)
+	{
+		for (size_t i = 0; i < number; i++)		
+			cout << buffer[i] << ' ';
+		cout << endl;
+	}
+	else
+	{
+		for (size_t variant = 0; variant < number; variant++)
+		{
+			if (!used[variant])
+			{
+				buffer[current] = variant;
+				used[variant] = true;
+				permutations(number, current + 1, buffer, used);
+				used[variant] = false;
+			}
+		}
+	}
 }
 
 // перестановки чисел
