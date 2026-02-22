@@ -8,8 +8,8 @@ int main()
     uint32_t x = 37;
    /* cout << "Input x: ";
     cin >> x;*/
-        
-
+    // for    
+    
 
     cout << "flag: " << flag << endl;
 }

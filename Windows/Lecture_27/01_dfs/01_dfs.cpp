@@ -13,6 +13,7 @@ void just_dfs(const Graph_t  &graph, vertex_t start, vector<bool> &used)
     cout << endl;
 }
 
+// dfs - поиск в грубину
 int main()
 {
     Graph_t g;
